@@ -11,3 +11,10 @@ We use eksctl to create and EKS cluster using one line command.
 eksctl create cluster --name=${CLUSTER_FULL_NAME} --nodes=${nodecount} --region=${AWS_DEFAULT_REGION}
 
 ```
+
+* Deleteing an EKS cluster
+
+```
+eksctl delete cluster --name=${CLUSTER_FULL_NAME}
+
+```
