@@ -58,22 +58,7 @@ export AWS_DEFAULT_REGION=us-east-1
 aws iam create-group --group-name eksuser
 
 aws iam attach-group-policy --group-name eksuser \
-    --policy-arn arn:aws:iam::aws:policy/AmazonEC2FullAccess
-
-aws iam attach-group-policy --group-name eksuser \
-    --policy-arn arn:aws:iam::aws:policy/AmazonS3FullAccess
-
-aws iam attach-group-policy --group-name eksuser \
-    --policy-arn arn:aws:iam::aws:policy/AmazonVPCFullAccess
-
-aws iam attach-group-policy --group-name eksuser \
-    --policy-arn arn:aws:iam::aws:policy/IAMFullAccess
-
-aws iam attach-group-policy --group-name eksuser \
-    --policy-arn arn:aws:iam::aws:policy/AmazonRoute53FullAccess
-    
-aws iam attach-group-policy --group-name eksuser \
-    --policy-arn arn:aws:iam::aws:policy/AmazonEC2ContainerRegistryFullAccess
+    --policy-arn arn:aws:iam::aws:policy/AdministratorAccess
     
 aws iam create-user --user-name eksuser
 
