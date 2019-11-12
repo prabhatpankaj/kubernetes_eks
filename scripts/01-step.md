@@ -31,8 +31,7 @@ export CLUSTER_FULL_NAME="ekslab"
 We use eksctl to create and EKS cluster using one line command.
 
 ```
-eksctl create cluster --name=${CLUSTER_FULL_NAME} --nodes=${nodecount} --region=${AWS_DEFAULT_REGION}
-
+eksctl create cluster --name=${CLUSTER_FULL_NAME} --nodes=${nodecount} --region=${AWS_DEFAULT_REGION} --node-type t2.medium 
 ```
 
 * Deleteing an EKS cluster
