@@ -1,6 +1,6 @@
 #  DEPLOY THE KUBERNETES DASHBOARD
 
-![Dashboard](images/dashboard.png)
+![Dashboard](/images/dashboard.png)
 
 * The official Kubernetes dashboard is not deployed by default, but there are instructions in the official documentation.
 

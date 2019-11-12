@@ -1,6 +1,6 @@
 # DEPLOY THE EXAMPLE MICROSERVICES
 
-![MICROSERVICES](images/microservices.svg)
+![MICROSERVICES](/images/microservices.svg)
 
 * DEPLOY NODEJS BACKEND API
 

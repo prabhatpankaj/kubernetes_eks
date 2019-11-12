@@ -13,7 +13,7 @@
 # HIGH LEVEL
 Once your EKS cluster is ready, you get an API endpoint and you’d use Kubectl, community developed tool to interact with your cluster.
 
-![HIGH LEVEL](images/eks-high-level.svg)
+![HIGH LEVEL](/images/eks-high-level.svg)
 
 # Create an EKS cluster
 
