@@ -17,12 +17,15 @@ Once your EKS cluster is ready, you get an API endpoint and you’d use Kubectl,
 
 # Create an EKS cluster
 
+```
 export nodecount=1
 
+```
 * Friendly name for your cluster
 
+```
 export CLUSTER_FULL_NAME="ekslab"
-
+```
 * Creating an EKS cluster
 
 We use eksctl to create and EKS cluster using one line command.
