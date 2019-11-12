@@ -1,14 +1,14 @@
 # EKS CLUSTER CREATION WORKFLOW
 
-![EKS CLUSTER CREATION WORKFLOW](images/eks-customers.svg)
+![EKS CLUSTER CREATION WORKFLOW](/images/eks-customers.svg)
 
 # WHAT HAPPENS WHEN YOU CREATE YOUR EKS CLUSTER
 
-![WHAT HAPPENS WHEN YOU CREATE YOUR EKS CLUSTER](images/eks-k8s-control-plane.svg)
+![WHAT HAPPENS WHEN YOU CREATE YOUR EKS CLUSTER](/images/eks-k8s-control-plane.svg)
 
 # EKS ARCHITECTURE FOR CONTROL PLANE AND WORKER NODE COMMUNICATION
 
-![EKS ARCHITECTURE FOR CONTROL PLANE AND WORKER NODE COMMUNICATION](images/eks-architecture.svg)
+![EKS ARCHITECTURE FOR CONTROL PLANE AND WORKER NODE COMMUNICATION](/images/eks-architecture.svg)
 
 # HIGH LEVEL
 Once your EKS cluster is ready, you get an API endpoint and you’d use Kubectl, community developed tool to interact with your cluster.
