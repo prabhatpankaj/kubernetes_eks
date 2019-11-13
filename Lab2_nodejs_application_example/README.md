@@ -42,6 +42,7 @@ kubectl get deployment ecsdemo-crystal
 Let’s bring up the Ruby Frontend!
 
 ```
+git clone https://github.com/prabhatpankaj/ecsdemo-frontend.git
 cd ecsdemo-frontend
 
 kubectl apply -f kubernetes/deployment.yaml
